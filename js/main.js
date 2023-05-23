@@ -30,6 +30,15 @@ function alertfunc() {
   
  }
 
+ function zoldkeret() {
+  alerthide()
+  msginput.classList.remove("greenborder")
+  nameinput.classList.remove("greenborder")
+  telinput.classList.remove("greenborder")
+  emailinput.classList.remove("greenborder")
+  
+}
+
  function alerthide() {
   alertdiv.classList.remove("alertVisible")
   alertdiv.classList.add("alertNotVisible")
@@ -101,6 +110,7 @@ function bekuldes() {
           nameinput.classList.add("greenborder")
           telinput.classList.add("greenborder")
           emailinput.classList.add("greenborder")
+
         }
        }
        else {
@@ -135,7 +145,8 @@ function telbutton() {
 }
 
 
-  
+
+
 
   
 
